@@ -11,6 +11,7 @@ Enable communication between two PCs on different VLANs by using a router for in
 ## IP Configurations
 - PC0: 192.168.10.2 255.255.255.0 **Gateway**: 192.168.10.1
 - PC1: 192.168.20.2 255.255.255.0 **Gateway**: 192.168.20.1
+- 
 **Router Interfaces**
 - G0/1.10: 192.168.10.1 255.255.255.0 (Vlan 10 Gateway)
 - G0/2.20: 192.168.20.1 255.255.255.0 (Vlan 20 Gateway)
