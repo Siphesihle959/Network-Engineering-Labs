@@ -14,8 +14,8 @@ Enable communication between four PCs on different VLANs by using a router for i
 - PC2: 192.168.200.2 255.255.255.0 **Gateway**: 192.168.200.1
 - PC3: 192.168.200.3 255.255.255.0 **Gateway**: 192.168.200.1 
 - **Router Interfaces**
-- G0/1.10: 192.168.100.1 255.255.255.0 (Vlan 10 Gateway)
-- G0/2.20: 192.168.200.1 255.255.255.0 (Vlan 20 Gateway)
+- G0/1.100: 192.168.100.1 255.255.255.0 (Vlan 100 Gateway)
+- G0/2.200: 192.168.200.1 255.255.255.0 (Vlan 200 Gateway)
 
  ## Steps Performed
 - Added 4 PCs, 2 Cisco 2960 switches, and 1 Cisco 2911 router to the Packet Tracer workspace.
